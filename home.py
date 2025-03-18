@@ -24,7 +24,7 @@ with text_col:
 
 
 
-thumbnail_col1,space_col, thumbnail_col2 = st.columns([1.5, 0.4, 1.5])
+thumbnail_col1,space_col, thumbnail_col2 = st.columns([1.7, 1, 1.7])
 
 df = pd.read_csv(r".venv\data.csv", sep=";")
 with thumbnail_col1:
