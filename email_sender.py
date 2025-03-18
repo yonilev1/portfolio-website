@@ -10,7 +10,8 @@ load_dotenv()
 host = 'smtp.gmail.com'
 port = 465
 
-my_email_username = 'yoniproj@gmail.com'
+
+my_email_username = os.getenv("EMAIL_ADDRESS")
 password = os.getenv("EMAIL_PASSWORD")
 subject = '🚀 New Message from Yoni Leventhal - Thank you for reaching out!'
 
